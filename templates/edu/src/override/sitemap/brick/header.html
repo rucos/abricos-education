@@ -1,0 +1,87 @@
+<!--[*]
+[mod=sitemap]hmenu,cecutient[/mod]
+[mod=user]usermenubutton[/mod]
+[ph=sys:site_name]Site Name[/ph]
+[ph=sys:site_title]Brief description of your site[/ph]
+[ph=university:fullname][/ph]
+[ph=university:shortname][/ph]
+[ph=university:pktelephone][/ph]
+
+[bkvar=ttowner]edu[/bkvar]
+[*]-->
+	<div class="navbar navbar-fixed-top navbar-fixed-top-edu navbar-scrolling scrolling-fixed" itemscope itemtype="http://schema.org/SiteNavigationElement">
+  		<div class="navbar-top">
+	        <div class="container">
+	                <div  class="name-edu-scroll">
+	    				<h1>
+	    					[ph]university:shortname[/ph]
+	    				</h1>
+	    			</div>
+			            <div class="row headmenublock">
+			                <div class="col-sm-5">
+			                        <ul class="nav navbar-nav">
+			                            <li>
+			                                <a itemprop="url" href="" title="Телефон приемной комиссии" class="a-fixed-top-edu">
+				                                  <span itemprop="name">  
+				                                  	<i class="fa fa-mobile" aria-hidden="true"></i> Телефон приемной комиссии: [ph]university:pktelephone[/ph]
+				                                  </span>
+			                                </a>
+			                            </li>
+			                        </ul>
+			                </div>
+			                <div class="col-sm-7">
+			                        <ul class="nav navbar-nav navbar-right">
+			                        	<li>
+			                        		[mod]sitemap:cecutient[/mod]
+			                        	</li>
+			                            <li>
+			                                <a itemprop="url" href="/sitemap/" title="Карта сайта" class="a-fixed-top-edu">
+			                                    <i class="fa fa-sitemap"></i> Карта сайта
+			                                </a>
+			                            </li>
+			                            <li>
+			                                <a itemprop="url" href="/contacts/" title="Контакты" class="a-fixed-top-edu">
+			                                    <i class="fa fa-envelope"></i> Контакты
+			                                </a>
+			                            </li>
+			                           		 [mod]user:usermenubutton[/mod]
+			                        </ul>
+			                </div>
+			           </div>
+				</div>
+		</div>
+	</div>
+			<div class="navbar navbar-edu">
+				<div class="container navbar-scrolling">
+		            <div class="head-edu">
+		           		 <div class="row">
+				            	 <div class="col-md-2 logo">
+				                    <a href="/">
+				                        <img src="/tt/[bkvar]ttowner[/bkvar]/i/logo.png?v=0.1"
+				                             title="[ph]sys:site_name[/ph]"
+				                             alt="[ph]sys:site_name[/ph]">
+				                    </a>
+				                </div>
+				                <div class="col-md-6">
+				                    <h1>
+				                        <a href="/">[ph]sys:site_name[/ph]</a>
+				                    </h1>
+				
+				                    <div>
+				                        [ph]sys:site_title[/ph]
+				                    </div>
+				                </div>
+				                <div class="col-md-4 name-assembly">
+				                	Сборка "Учебное заведение"
+				                </div>
+		            	</div>
+		            </div>
+		        </div>
+		    </div>
+	    	<div class="navbar navbar-sitemap-fon-edu">
+	    		<div class="container">
+		            <div class="menu-horizontal navbar sitemap-edu navbar-default" role="navigation">
+		                 [mod]sitemap:hmenu[/mod]
+		            </div>
+		       	</div>
+           </div>

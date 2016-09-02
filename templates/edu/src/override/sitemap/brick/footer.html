@@ -1,0 +1,62 @@
+<!--[*]
+[mod=sitemap]vmenunochild[/mod]
+[var=version][/var]
+[ph=sys:site_name][/ph]
+[ph=university:telephone][/ph]
+[ph=university:fax][/ph]
+[ph=university:email][/ph]
+[ph=university:address][/ph]
+[ph=university:fullname][/ph]
+[ph=university:shortname][/ph]
+
+[bkvar=ttowner]edu[/bkvar]
+[*]-->
+<div class="footer-edu">
+      <div class="container">
+           <div class="row">
+               	<div class="col-md-7">
+               		<div class="name-univer">
+						<a href="/">
+					    	<img src="/tt/[bkvar]ttowner[/bkvar]/i/logo.png?v=0.1"
+					        	title="[ph]sys:site_name[/ph]"
+					            alt="[ph]sys:site_name[/ph]" class="logo">
+					            	[ph]university:shortname[/ph]<br>
+					    			[ph]university:fullname[/ph]
+					    </a>
+				    </div>
+					    <div class="contact">
+						   	<ul>
+		                  		<li>Телефон:[ph]university:telephone[/ph]</li>
+		                        <li>Факс: [ph]university:fax[/ph]</li>
+		                        <li>Email:[ph]university:email[/ph]</li>
+		                        <li>Адрес: [ph]university:address[/ph]</li>
+		                 	</ul>
+	                 	</div>
+				</div>
+               <div class="col-md-5">
+                   <div class="sidebar">
+                       <div class="sidebaritem menu">
+ 							[mod]sitemap:vmenunochild[/mod]
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <hr>
+              <div class="row">
+              	 <div class="col-sm-6">
+                        <p>
+                            © <a href="/" title="[ph]sys:site_name[/ph]">[ph]sys:site_name[/ph]</a> - все
+                            права
+                            защищены
+                        </p>
+                  </div>
+                  <div class="col-md-6">
+                      <p class="powered">
+                          Powered by <a href="http://abricos.org" rel="friend"
+                                        title="Abricos - Content Management System (CMS), Web Application Platform (WebOS)">Abricos</a>
+                          [var]version[/var]
+                      </p>
+                  </div>
+              </div>
+    </div>
+</div>

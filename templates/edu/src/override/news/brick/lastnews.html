@@ -1,0 +1,23 @@
+<!--[*]
+[script]brick/lastnews.php[/script]
+[mcss=news]news.css[/mcss]
+[bkvar=result][/bkvar]
+[bkvar=row]
+    <div class="row">
+        <span class="date"><h5>{v#date}</h5></span>
+        <a class="title" href="{v#link}"><h4>{v#title}</h4></a>
+        <span class="intro">{v#intro}</span>
+        <a class="title" href="{v#link}">Подробнее</a>
+    </div>
+    <hr>
+[/bkvar]
+[bkvar=fullnewslink]/news/[/bkvar]
+[p=count]3[/p]
+[p=hideintro][/p]
+[*]-->
+<div class="lastnews">
+    [bkvar]result[/bkvar]
+</div>
+<div id="fullnewsedu" class="fullnews">
+    <h4><a href="[bkvar]fullnewslink[/bkvar]">{#brick.lastnews.1}</a></h4>
+</div>

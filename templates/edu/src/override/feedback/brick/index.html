@@ -1,0 +1,38 @@
+<!--[*]
+[mcss=feedback]feedback.css[/mcss]
+[*]-->
+<h2>{#content.index.1}</h2>
+<p>
+    {#content.index.2}
+</p>
+<form id="feedback_static_form" class="feedback-status-input" role="form" method="post">
+    <div class="form-group">
+        <label for="txt-feedback-fio">{#content.index.3}</label>
+        <input type="text" id="txt-feedback-fio" name="fio" class="form-control" data-wait="disable"/>
+    </div>
+    <div class="form-group">
+        <label for="txt-feedback-phone">{#content.index.4}</label>
+        <input type="text" id="txt-feedback-phone" name="phone" class="form-control" data-wait="disable"/>
+    </div>
+    <div class="form-group">
+        <label for="txt-feedback-email">{#content.index.5}</label>
+        <input type="email" id="txt-feedback-email" name="email" class="form-control" data-wait="disable"/>
+    </div>
+    <div class="form-group">
+        <label for="txt-feedback-message">{#content.index.6}</label>
+        <textarea id="txt-feedback-message" name="message" class="form-control" rows="4" data-wait="disable"></textarea>
+    </div>
+    <div class="form-group text-right">
+        <img src="/images/loading.gif" style="display: none" data-wait="show"/>
+        <span class="result">Ваше сообщение успешно отправлено</span>
+        <button type="submit" data-wait="disable" class="btn btn-primary feedback-complete-hide">{#content.index.7}</button>
+    </div>
+</form>
+
+<script language='JavaScript' type='text/javascript' charset='utf-8'>
+    Brick.use('feedback', 'feedback', function(err, NS){
+        new NS.FeedbackWidget({
+            boundingBox: '#feedback_static_form'
+        });
+    });
+</script>

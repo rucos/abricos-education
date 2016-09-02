@@ -1,0 +1,68 @@
+<!--[*]
+[var=meta_title][/var][var=meta_keys][/var][var=meta_desc][/var]
+[ph=sys:meta_title][/ph][ph=sys:meta_keys][/ph][ph=sys:meta_desc][/ph]
+
+[bkvar=ttowner]edu[/bkvar]
+[bkvar=js][/bkvar]
+
+
+[mod=sys]jsvar[/mod]
+[mod=rss]meta[/mod]
+
+[var=version][/var]
+[var=jsyui][/var]
+
+[mod=sitemap]breadcrumb,svedenheader,svedenfooter,cecutientcss[/mod]
+
+[mcss=sys]widget.css[/mcss] // Будет удалет. Оставлен для совместимости
+
+[*]--><!DOCTYPE html>
+<html lang="ru" class="yui3-loading">
+<head>
+    <title>[var]meta_title[/var]</title>
+    <meta name="keywords" content="[var]meta_keys[/var]">
+    <meta name="description" content="[var]meta_desc[/var]">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    [mod]sys:jsvar[/mod]
+
+    <link href="/vendor/bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="/tt/[bkvar]ttowner[/bkvar]/css/main.css?v=0.1.0" type="text/css" rel="stylesheet"/>
+	<meta name='yandex-verification' content='67c62cb663ba5b11' />
+	<script src="/gzip.php?base=/vendor&v=[var]version[/var]&file=jquery/jquery.min.js,bootstrap/js/bootstrap.min.js"></script>
+    
+    [mod]sitemap:cecutientcss[/mod]
+
+    [bkvar]js[/bkvar]
+
+    <link rel="stylesheet" href="/tt/[bkvar]ttowner[/bkvar]/css/override.css?v=0.1.0" type="text/css"/>
+    <link rel="shortcut icon" href="/tt/[bkvar]ttowner[/bkvar]/i/favicon.ico" type="image/x-icon">
+
+    [mod]rss:meta[/mod]
+
+</head>
+<body>
+<div id="edu">
+	 <header>
+    	[mod]sitemap:svedenheader[/mod]
+    </header>
+	
+    <div id="bodyedu" class="container sveden">
+        <div class="container main-content">
+            <div class="row">
+                    <div class="sveden">
+                      [mod]sitemap:breadcrumb[/mod]
+                    	[tt]content[/tt]
+                    </div>
+            </div>
+       </div>
+    </div>
+	<footer itemscope itemtype="http://schema.org/WPFooter">
+ 		[mod]sitemap:svedenfooter[/mod]
+    </footer>
+</div>
+</body>
+</html>

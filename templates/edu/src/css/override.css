@@ -1,0 +1,27 @@
+/** 
+ * Этот CSS файл подгружается последним. 
+ * Создан для удобства перегрузки CSS стилей поставляемых с модулями. 
+ */
+
+
+#edu .mod-sitemap-hmenu .dropdown-menu{
+	background-color: #006820;
+}
+
+#edu footer .panel-default>.panel-heading {
+    color: #fff; 
+    background-color: #0061AA;
+    border-color: #0061AA;
+}
+
+.feedback-status-complete .result {
+	display: block;
+}
+
+.feedback-status-complete .feedback-complete-hide {
+	display: none;
+}
+
+.feedback-status-input .result {
+	display: none;
+}

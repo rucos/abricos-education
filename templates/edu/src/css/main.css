@@ -1,0 +1,217 @@
+#edu header .headmenublock .navbar {
+  margin-bottom: 3px;
+  
+}
+
+#edu header .navbar-fixed-top-edu{
+  background-color: #008000;
+  
+}
+
+@media only screen and (max-width: 768px) {
+	.col-md-12 {
+	  padding-left: 5px;
+	  padding-right: 5px;
+	}
+	header .scrolling-fixed {
+	  position: inherit;
+	  z-index: 0;
+	}
+	header .navbar-scrolling {
+	  text-align: center;
+	  margin-bottom: 0px;
+	}
+	header .navbar-edu {
+		display: none;
+	}
+}
+
+#edu header .navbar-fixed-top-edu .a-fixed-top-edu{
+  color: #fff;
+}
+
+#edu header .navbar-fixed-top-edu .a-fixed-top-edu:hover{
+  background-color: #006820;
+}
+
+#edu header .navbar-fixed-top-edu .dropdown-toggle{
+  color: #fff;
+}
+
+#edu header .navbar-fixed-top-edu .dropdown-toggle:hover{
+  background-color: #006820;
+}
+
+#edu header .navbar-fixed-top-edu .open>a, .open>a:focus, .open>a:hover {
+    background-color: #006820;
+}
+
+#edu header .headmenublock p{
+    text-align: center;
+}
+
+#edu header .navbar-edu{
+    margin-top: 3.5em;
+    background-color: #006820;
+    margin-bottom: 0px;
+	border-radius: 0px;
+	color: #fff;
+}
+#edu header .navbar-edu a{
+	color: #fff;
+}
+
+#edu header .head-image{
+  	width: 100%;
+  	position: relative;
+}
+
+ .name-edu-scroll {
+	display: none;
+}
+
+#edu header .navbar-sitemap-fon-edu{
+	margin-top: 1px;
+	background-color: #006820;
+	border-radius: 0px;
+}
+
+#edu header .navbar .container .sitemap-edu{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-color: #006820;
+    border-radius: 0px;
+    background-color: #006820;
+    margin-left: 20px;
+    
+}
+
+#edu header .navbar .container .sitemap-edu a{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-color: #006820;
+    border-radius: 0px;
+    background-color: #006820;
+    color: #fff;
+}
+
+#edu header .navbar .container .sitemap-edu a:hover{
+    background-color: #008000;
+}
+
+#edu header .menu-horizontal {
+  margin-top: 20px;
+}
+
+#edu header .name-assembly {
+	font-size: 26px;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+#edu .lastnews {
+	padding-left: 15px;
+}
+
+#edu footer .powered {
+  text-align: right;
+}
+
+#edu footer .footer-edu{
+	background-color: #006820;
+	color: #fff;
+}
+
+#edu footer .footer-edu a{
+	color: #fff;
+}
+
+#edu footer .footer-edu p{
+	margin: 20px;
+}
+
+#edu footer .footer-edu a{
+	color: #fff;
+}
+
+#edu footer hr {
+	margin: 0px 0px 0px 0px;
+}
+
+#edu footer .footer-edu ul{
+	list-style-type: none;
+}
+
+#edu footer .footer-edu .contact{
+	margin-top: 60px;
+}
+
+#edu footer .logo{
+	float:left; 
+    margin: 7px 7px 7px 0;
+}
+
+#edu footer .name-univer{
+    margin-top: 15px;
+}
+
+#edu footer .menu{
+	margin-top: 15px;
+	position: relative;
+    float: right;
+    text-align: right;
+    clear: both;
+}
+
+#edu footer .menu h4{
+	font-size: 13px;
+}
+
+#edu footer .menu a{
+	text-transform: uppercase;
+}
+
+#edu .navbar-fixed-top-edu .dropdown-menu {
+	min-width: 360px;
+	padding: 20px;
+}
+
+#edu .content-edu .submenu-edu ul{
+	font-size: 15px;
+    list-style-type: none;
+    color: #7F8C8D;
+}
+
+/****sveden*****/
+#edu .sveden h1{
+	font-size: 24px;
+}
+
+#edu .sveden h2{
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	font-size: 22px;
+}
+
+#edu .sveden legend{
+	font-size: 18px;
+}
+
+#edu .sveden h3{
+	font-size: 16px;
+	margin: 5px;
+}
+
+
+#edu .name-edu-sveden {
+	color: #808080;
+	margin: 20px;
+	
+}
+
+#edu footer .footer-edu-bottom-sveden{
+	text-align: center;
+	margin-top: 150px;
+}
+
+

@@ -1,0 +1,60 @@
+<!--[*]
+[script]brick/menubuilder.php[/script]
+
+[mcss=sitemap]menu.css[/mcss]
+
+[p=noWrap][/p]
+
+[bkvar=menu-level-0]
+    {v#rows}
+[/bkvar]
+
+[bkvar=item-level-0]
+		<li>
+			<h4>
+	           <a href="{v#lnk}">
+	               {v#tl}
+	           </a>
+	        </h4>
+        </li>
+[/bkvar]
+
+[bkvar=itemNotChild-level-0]
+		<li>
+			<h4>
+	           <a href="{v#lnk}">
+	               {v#tl}
+	           </a>
+	        </h4>
+        </li>
+[/bkvar]
+
+[bkvar=menu-level-1]
+    <div id="{v#brickid}-m{v#id}" class="menu-level-{v#lvl}">
+        {v#rows}
+    </div>
+[/bkvar]
+
+[bkvar=menu]
+    <div id="{v#brickid}-ms{v#id}" class="menu-level-{v#lvl}">
+        {v#rows}
+    </div>
+[/bkvar]
+
+[bkvar=item]
+    <div class="menuitem-level-{v#lvl} menuitem-notchild">
+        <a href="{v#lnk}">{v#tl}</a>
+    </div>
+[/bkvar]
+
+[bkvar=wrap]
+    <div id="{v#brickid}" class="mod-sitemap">
+        <div id="{v#brickid}el" class="panel-group sitemap-accordion">
+        	<ul>
+            	{v#result}
+            </ul>
+        </div>
+    </div>
+[/bkvar]
+
+[*]-->
